@@ -1,0 +1,154 @@
+.side-bar {
+  padding: 3px 28px 8px 32px;
+
+  .row {
+    margin: 0;
+  }
+
+  .title {
+    position: relative;
+
+    &:after {
+      display: block;
+      content: ' ';
+      height: 1px;
+      width: 32px;
+      position: absolute;
+      bottom: -10px;
+      background: #8cddcd;;
+    }
+
+    .title-inner {
+      font-weight: 600;
+      font-size: 16px;
+      color: #173350;
+      letter-spacing: 1px;
+    }
+
+    .title-links {
+
+      a {
+        font-size: 12px;
+        color: #1385f6;
+
+        &:hover {
+          color: #173350;
+        }
+
+        &:last-child {
+          margin-left: 12px;
+          margin-right: -3px;
+          letter-spacing: 0;
+        }
+
+      }
+    }
+  }
+  .item {
+    color: #1abc9c;
+    height: 46px;
+    padding-top: 13px;
+    border-bottom: 1px solid #e7eaed;
+    font-size: 14px;
+    margin-top: -4px;
+
+    a {
+      color: #1abc9c;
+    }
+
+    &:nth-child(2) {
+      margin-top: 23px;
+
+    }
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+
+  }
+}
+
+.container-label {
+  display: block;
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  user-select: none;
+  color: #173350;
+  width: 100%;
+
+  &:hover input ~ .checkmark {
+    border-color: #1abc9c;
+  }
+
+  & input:checked ~ .checkmark {
+    border-color: #1abc9c;
+  }
+
+  & input:checked ~ span {
+    color: #1abc9c;
+  }
+
+
+
+
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+
+    &:checked ~ .checkmark:after {
+      display: block;
+    }
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    border: 2px solid #6b6b6b;
+    border-radius: 2px;
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+    }
+    &:after {
+      left: 3px;
+      top: -3px;
+      width: 5px;
+      height: 10px;
+      border: solid #1abc9c;
+      border-width: 0 2px 2px 0;
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+  }
+
+  span:last-child {
+    display: inline-block;
+    float: right;
+    //margin-right: 3px;
+  }
+}
+
+.item-inner .item-number a {
+    color: #173350!important;
+  }
+
+
+.item-inner:hover .container-label {
+  color: #1abc9c;
+}
+
+.item-inner:hover .item-number a {
+  color: #1abc9c!important;
+}
+
