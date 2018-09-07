@@ -307,9 +307,9 @@ section {
   .content .row {
     margin: 0; }
   .content .content-wrapper .features {
-    height: 56px;
     background-color: #fff;
-    margin-bottom: 30px; }
+    margin-bottom: 30px;
+    padding: 13px 0; }
     .content .content-wrapper .features .btn-features {
       margin-left: 16px; }
       .content .content-wrapper .features .btn-features .mini-btn-features {
@@ -318,8 +318,6 @@ section {
         width: 26px;
         border: 1px solid #dbdbdb;
         color: #a8adb3;
-        margin-top: 16px;
-        /* margin-bottom: 16px; */
         margin-right: 7px;
         padding-top: 1px; }
         .content .content-wrapper .features .btn-features .mini-btn-features:hover {
@@ -347,124 +345,124 @@ section {
   .content .content-wrapper .jobs-amount {
     color: #2c3e50;
     font-size: 14px;
-    padding: 19px 16px 0 0;
-    letter-spacing: 0.5px; }
+    letter-spacing: 0.5px;
+    padding: 4px 21px; }
   .content .content-wrapper .vacancy {
     background-color: #fff;
     margin-top: 28px;
-    height: 183px; }
-    .content .content-wrapper .vacancy:nth-child(2) {
-      margin-top: 0; }
+    padding: 21px 0 26px; }
     .content .content-wrapper .vacancy .photo {
-      height: 100px;
-      width: 100px;
-      margin: 30px 28px 0 30px;
-      background-color: #e3e3e3; }
+      margin: 11px 28px 0 30px; }
       .content .content-wrapper .vacancy .photo .star {
         position: absolute;
-        top: -10px;
-        left: -32px; }
-      .content .content-wrapper .vacancy .photo span {
-        font-size: 18px;
-        color: #010101; }
-      .content .content-wrapper .vacancy .photo .photo-inner {
-        display: flex;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        letter-spacing: 2px; }
-      .content .content-wrapper .vacancy .photo a:last-child:hover {
-        color: inherit; }
-    .content .content-wrapper .vacancy .information {
-      width: 457px;
-      font-size: 13px; }
-      .content .content-wrapper .vacancy .information a {
-        display: inline-block;
-        color: #2c3e50;
-        padding-top: 7px; }
-        .content .content-wrapper .vacancy .information a:hover {
-          color: #1abc9c; }
-        .content .content-wrapper .vacancy .information a i {
-          padding-right: 14px; }
-      .content .content-wrapper .vacancy .information .job-style-information {
+        top: -9px;
+        left: -31px;
+        width: 32px;
+        height: 25px;
+        background-color: #ffcd05;
+        border-radius: 2px; }
+        .content .content-wrapper .vacancy .photo .star:hover svg {
+          fill: #1abc9c; }
+        .content .content-wrapper .vacancy .photo .star svg {
+          margin-left: 8px;
+          fill: #fff; }
+      .content .content-wrapper .vacancy .photo .triangle {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 11.5px 0 11.5px 11px;
+        border-color: transparent transparent transparent #ffcd05;
+        position: absolute;
+        top: -8px;
+        left: 1px; }
+  .content .content-wrapper .information {
+    width: 457px;
+    font-size: 13px; }
+    .content .content-wrapper .information a {
+      display: inline-block;
+      color: #2c3e50;
+      padding-top: 7px; }
+      .content .content-wrapper .information a:hover {
+        color: #1abc9c; }
+      .content .content-wrapper .information a i {
+        padding-right: 14px; }
+    .content .content-wrapper .information .job-style-information {
+      display: block;
+      color: #ff2626; }
+    .content .content-wrapper .information .title-information {
+      font-size: 16px;
+      padding-top: 0;
+      letter-spacing: 0.6px; }
+    .content .content-wrapper .information .when-information {
+      font-size: 11px;
+      line-height: 2; }
+    .content .content-wrapper .information .two-links {
+      padding-top: 8px; }
+      .content .content-wrapper .information .two-links a:first-child {
+        padding-right: 18px; }
+      .content .content-wrapper .information .two-links a .fa-flag {
+        color: #3498db; }
+      .content .content-wrapper .information .two-links a .fa-map-marker-alt {
+        color: #e74c3c; }
+    .content .content-wrapper .information .dollar {
+      padding-left: 28px;
+      letter-spacing: 1px; }
+      .content .content-wrapper .information .dollar:before {
+        content: ' ';
         display: block;
-        padding-top: 29px;
-        color: #ff2626; }
-      .content .content-wrapper .vacancy .information .title-information {
-        font-size: 16px;
-        padding-top: 0;
-        letter-spacing: 0.6px; }
-      .content .content-wrapper .vacancy .information .when-information {
-        font-size: 11px;
-        line-height: 2; }
-      .content .content-wrapper .vacancy .information .two-links {
-        padding-top: 8px; }
-        .content .content-wrapper .vacancy .information .two-links a:first-child {
-          padding-right: 18px; }
-        .content .content-wrapper .vacancy .information .two-links a .fa-flag {
-          color: #3498db; }
-        .content .content-wrapper .vacancy .information .two-links a .fa-map-marker-alt {
-          color: #e74c3c; }
-      .content .content-wrapper .vacancy .information .dollar {
-        padding-left: 28px;
-        letter-spacing: 1px; }
-        .content .content-wrapper .vacancy .information .dollar:before {
-          content: ' ';
-          display: block;
-          width: 16px;
-          height: 11px;
-          background: url("../img/dollar.png");
-          position: absolute;
-          top: 8px;
-          left: 0; }
-      .content .content-wrapper .vacancy .information .tags a {
-        margin-right: 5px; }
-      .content .content-wrapper .vacancy .information .tags .fa-tag {
-        display: inline-block;
-        transform: scaleX(-1);
-        color: #ff9333;
-        padding-right: 0;
-        padding-left: 10px; }
-  .content .content-wrapper .interactive {
+        width: 16px;
+        height: 11px;
+        background: url("../img/dollar.png");
+        position: absolute;
+        top: 10px;
+        left: 0; }
+    .content .content-wrapper .information .tags a {
+      margin-right: 5px; }
+    .content .content-wrapper .information .tags .fa-tag {
+      display: inline-block;
+      transform: scaleX(-1);
+      color: #ff9333;
+      padding-right: 0;
+      padding-left: 10px; }
+  .content .interactive {
     width: 155px; }
-    .content .content-wrapper .interactive .interactive-inner {
-      margin-bottom: 26px;
+    .content .interactive .interactive-inner {
       font-size: 13px; }
-      .content .content-wrapper .interactive .interactive-inner a {
+      .content .interactive .interactive-inner a {
         display: inline-block;
         border: 1px solid;
         border-color: transparent transparent transparent #e9ebed;
         color: #2c3e50;
-        width: 31px; }
-        .content .content-wrapper .interactive .interactive-inner a:first-child {
+        width: 33px; }
+        .content .interactive .interactive-inner a:first-child {
           border-color: transparent; }
-        .content .content-wrapper .interactive .interactive-inner a i:not(.fa-wifi) {
-          padding: 0 5px; }
-        .content .content-wrapper .interactive .interactive-inner a:hover {
+        .content .interactive .interactive-inner a:hover {
           color: #1abc9c; }
-      .content .content-wrapper .interactive .interactive-inner .fa-wifi {
+      .content .interactive .interactive-inner .fa-wifi {
         transform: rotate(45deg);
-        padding-left: 5px; }
-  .content .number-of-pages {
-    margin-top: 51px;
-    padding: 14px 0;
-    margin-left: 13px; }
-    .content .number-of-pages li {
-      margin-right: 10px;
-      display: inline-block; }
-      .content .number-of-pages li:last-child {
-        margin-right: 0; }
-      .content .number-of-pages li a {
-        color: #42505f;
-        background-color: #fff;
-        border: 1px solid #ebebeb;
-        display: block;
-        padding: 2px 11.7px;
-        height: 30px; }
-        .content .number-of-pages li a:hover {
-          background-color: #1abc9c;
-          border-color: #1abc9c;
-          color: #fff; }
+        padding-left: 5px;
+        margin-right: 8px; }
+
+.number-of-pages {
+  margin-top: 51px;
+  padding: 14px 0;
+  margin-left: 13px; }
+  .number-of-pages li {
+    margin-right: 10px;
+    display: inline-block; }
+    .number-of-pages li:last-child {
+      margin-right: 0; }
+    .number-of-pages li a {
+      color: #42505f;
+      background-color: #fff;
+      border: 1px solid #ebebeb;
+      display: block;
+      padding: 2px 11.7px;
+      height: 30px; }
+      .number-of-pages li a:hover {
+        background-color: #1abc9c;
+        border-color: #1abc9c;
+        color: #fff; }
 
 footer {
   font-size: 14px;
@@ -487,12 +485,13 @@ footer {
       font-size: 18px;
       margin-bottom: 26px; }
     footer .footer-wrapper-up .footer-up {
+      padding: 75px 0;
       height: 420px;
       font-family: 'Work Sans', sans-serif; }
       footer .footer-wrapper-up .footer-up .col-4 {
         padding: 0 10px 0 0; }
       footer .footer-wrapper-up .footer-up .left-column .logo {
-        margin-top: 80px;
+        margin-top: 5px;
         margin-bottom: 24px;
         padding: 0; }
         footer .footer-wrapper-up .footer-up .left-column .logo a {
@@ -524,7 +523,7 @@ footer {
           font-family: 'Poppins', sans-serif;
           text-transform: uppercase; }
     footer .footer-wrapper-up .right-column {
-      padding: 75px 0; }
+      padding: 0; }
       footer .footer-wrapper-up .right-column:nth-child(2) {
         margin-left: 38px; }
       footer .footer-wrapper-up .right-column .connect-us {
