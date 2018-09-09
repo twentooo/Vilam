@@ -1,0 +1,71 @@
+.name-page {
+  margin-top: 80px;
+  color: #fff;
+
+  h1 {
+    font-size: 48px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+}
+
+.about-us-vilam {
+  margin-top: 138px;
+  padding: 0 40px;
+
+  .about-us-video {
+    margin-top: 60px;
+  }
+  p {
+    font-size: 14px;
+    color: #2c3e50;
+    margin-top: 20px;
+
+    &:last-child {
+      margin-top: 30px;
+    }
+  }
+}
+.title-vilam {
+  font-size: 18px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+.service {
+  padding: 0 40px;
+
+  .items-service {
+    flex-wrap: wrap;
+
+    .service-item {
+      width: 267px;
+      height: 100px;
+      margin-top: 51px;
+
+      .service-image {
+        height: 98px;
+        width: 98px;
+        border:1px solid #dbdbdb;
+        text-align: center;
+        color: #2c3e50;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .text-service {
+        display: flex;
+        flex-direction: column;
+        margin-left: 21px;
+
+        .top-text {
+          font-size: 16px;
+        }
+        .bottom-text {
+          font-size: 14px;
+          opacity: .7;
+        }
+      }
+    }
+  }
+}
