@@ -1,0 +1,50 @@
+.error-page {
+  padding: 140px 0 150px 0;
+  .error {
+    font-size: 250px;
+    color: #1abc9c;
+    position: relative;
+
+    &:after {
+      content: ' ';
+      position: absolute;
+      height: 377px;
+      width: 1px;
+      display: block;
+      background-color: #7d8894;
+      right: 0;
+      top: 24px;
+    }
+  }
+
+  .sorry-text {
+    font-size: 72px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 70px;
+  }
+  .page-not-found {
+    font-size: 36px;
+  }
+  .go-home {
+    margin-top: 30px;
+
+    .fa-angle-left {
+      font-size: 60px;
+      display: inline-block;
+      position: relative;
+      top: 11px;
+      padding-right: 20px;
+    }
+    a {
+      text-decoration: underline;
+      text-transform: uppercase;
+      font-size: 36px;
+
+      &:hover {
+        text-decoration: none;
+        color: #2c3e50;
+      }
+    }
+  }
+}
