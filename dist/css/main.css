@@ -145,11 +145,15 @@
   .name-page h6 {
     font-size: 16px; }
 
+.container {
+  padding: 0; }
+
 .about-us-vilam {
   margin-top: 138px;
   padding: 0 40px; }
   .about-us-vilam .about-us-video {
-    margin-top: 60px; }
+    margin-top: 60px;
+    margin-left: 70px; }
   .about-us-vilam p {
     font-size: 14px;
     color: #2c3e50;
@@ -160,16 +164,18 @@
 .title-vilam {
   font-size: 18px;
   color: #2c3e50;
-  font-weight: bold; }
+  font-weight: bold;
+  display: block;
+  padding-bottom: 23px; }
 
 .service {
-  padding: 0 40px; }
+  padding: 0 40px 90px 40px; }
   .service .items-service {
     flex-wrap: wrap; }
     .service .items-service .service-item {
-      width: 267px;
+      width: 273px;
       height: 100px;
-      margin-top: 51px; }
+      margin-bottom: 51px; }
       .service .items-service .service-item .service-image {
         height: 98px;
         width: 98px;
@@ -184,10 +190,94 @@
         flex-direction: column;
         margin-left: 21px; }
         .service .items-service .service-item .text-service .top-text {
-          font-size: 16px; }
+          font-size: 16px;
+          font-weight: bolder; }
         .service .items-service .service-item .text-service .bottom-text {
           font-size: 14px;
           opacity: .7; }
+
+.trust-me {
+  text-align: center;
+  color: #fff;
+  background-color: #7b7b7c;
+  width: 100%;
+  padding: 93px 0 100px; }
+  .trust-me .text-trust-us {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px; }
+  .trust-me .text-we-always {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 1px; }
+  .trust-me .text-proof {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px; }
+  .trust-me .btn-post-job {
+    border-radius: 4px;
+    padding: 0 29px;
+    margin-top: 37px; }
+
+.album-panel {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #2c3e50;
+  padding-top: 100px; }
+  .album-panel .quick-text {
+    font-size: 30px;
+    font-weight: bold; }
+  .album-panel .post-text {
+    font-size: 14px;
+    margin-top: 5px;
+    word-spacing: 2px; }
+  .album-panel .album-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 54px 0 30px 0; }
+    .album-panel .album-items .album-item {
+      width: 370px;
+      height: 492px;
+      border: 1px solid #dbdbdb; }
+      .album-panel .album-items .album-item .album-picture {
+        width: 100%;
+        height: 213px;
+        background-color: #dadada;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative; }
+        .album-panel .album-items .album-item .album-picture span {
+          font-size: 48px;
+          color: #000; }
+        .album-panel .album-items .album-item .album-picture:before {
+          content: ' ';
+          position: absolute;
+          width: 92px;
+          height: 30px;
+          background: url("../img/culture.png") no-repeat;
+          top: 30px;
+          left: 30px; }
+      .album-panel .album-items .album-item .sign {
+        padding: 30px 30px 40px 30px;
+        text-align: left; }
+        .album-panel .album-items .album-item .sign .topic {
+          font-size: 16px;
+          font-weight: bold; }
+        .album-panel .album-items .album-item .sign .sign-date {
+          font-size: 14px;
+          margin-top: 10px; }
+          .album-panel .album-items .album-item .sign .sign-date .user {
+            color: #1abc9c;
+            font-weight: bold; }
+        .album-panel .album-items .album-item .sign .topic-info {
+          font-size: 14px;
+          line-height: 27px;
+          margin-top: 15px; }
+        .album-panel .album-items .album-item .sign .read-more {
+          margin-top: 30px;
+          font-size: 14px; }
 
 body {
   font-family: 'Poppins', sans-serif;

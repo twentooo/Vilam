@@ -9,13 +9,16 @@
     font-size: 16px;
   }
 }
-
+.container {
+  padding: 0;
+}
 .about-us-vilam {
   margin-top: 138px;
   padding: 0 40px;
 
   .about-us-video {
     margin-top: 60px;
+    margin-left: 70px;
   }
   p {
     font-size: 14px;
@@ -31,17 +34,19 @@
   font-size: 18px;
   color: #2c3e50;
   font-weight: bold;
+  display: block;
+  padding-bottom: 23px;
 }
 .service {
-  padding: 0 40px;
+  padding: 0 40px 90px 40px;
 
   .items-service {
     flex-wrap: wrap;
 
     .service-item {
-      width: 267px;
+      width: 273px;
       height: 100px;
-      margin-top: 51px;
+      margin-bottom: 51px;
 
       .service-image {
         height: 98px;
@@ -60,10 +65,129 @@
 
         .top-text {
           font-size: 16px;
+          font-weight: bolder;
         }
         .bottom-text {
           font-size: 14px;
           opacity: .7;
+        }
+      }
+    }
+  }
+}
+.trust-me {
+  text-align: center;
+  color: #fff;
+  background-color: #7b7b7c;
+  width: 100%;
+  padding: 93px 0 100px;
+
+
+  .text-trust-us {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  .text-we-always {
+    font-size: 48px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  .text-proof {
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 10px;
+  }
+
+  .btn-post-job {
+    border-radius: 4px;
+    padding: 0 29px;
+    margin-top: 37px;
+  }
+}
+.album-panel {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #2c3e50;
+  padding-top: 100px;
+
+  .quick-text {
+    font-size: 30px;
+
+    font-weight: bold;
+  }
+  .post-text {
+    font-size: 14px;
+    margin-top: 5px;
+    word-spacing: 2px;
+  }
+
+  .album-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 54px 0 30px 0;
+
+    .album-item {
+      width: 370px;
+      height: 492px;
+      border: 1px solid #dbdbdb;
+
+      .album-picture {
+        width: 100%;
+        height: 213px;
+        background-color: #dadada;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+
+        span {
+          font-size: 48px;
+          color: #000;
+
+        }
+
+        &:before {
+          content: ' ';
+          position: absolute;
+          width: 92px;
+          height: 30px;
+          background: url("../img/culture.png") no-repeat;
+          top: 30px;
+          left: 30px;
+        }
+      }
+
+      .sign {
+        padding: 30px 30px 40px 30px;
+        text-align: left;
+
+        .topic {
+          font-size: 16px;
+          font-weight: bold;
+        }
+
+        .sign-date {
+          font-size: 14px;
+          margin-top: 10px;
+
+          .user {
+            color: #1abc9c;
+            font-weight: bold;
+          }
+        }
+
+        .topic-info {
+          font-size: 14px;
+          line-height: 27px;
+          margin-top: 15px;
+        }
+
+        .read-more {
+          margin-top: 30px;
+          font-size: 14px;
         }
       }
     }
