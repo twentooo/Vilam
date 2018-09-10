@@ -270,7 +270,10 @@
           margin-top: 10px; }
           .album-panel .album-items .album-item .sign .sign-date .user {
             color: #1abc9c;
-            font-weight: bold; }
+            font-weight: bold;
+            border-right: 1px solid black;
+            padding-right: 9px;
+            margin-right: 5px; }
         .album-panel .album-items .album-item .sign .topic-info {
           font-size: 14px;
           line-height: 27px;
