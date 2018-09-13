@@ -320,6 +320,87 @@
         text-decoration: none;
         color: #2c3e50; }
 
+.blog-list-items {
+  margin-top: 53px; }
+  .blog-list-items .blog-list-item {
+    display: flex;
+    height: 270px;
+    width: 790px;
+    margin-top: 32px; }
+    .blog-list-items .blog-list-item .blog-list-picture {
+      width: 33%;
+      background-color: #e3e3e3;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    .blog-list-items .blog-list-item .description {
+      padding: 40px 60px 40px 30px;
+      background-color: #fff;
+      width: 67%; }
+      .blog-list-items .blog-list-item .description .name-blog {
+        font-size: 16px;
+        font-weight: bold; }
+      .blog-list-items .blog-list-item .description .user-blog {
+        font-size: 14px;
+        margin-top: 10px; }
+        .blog-list-items .blog-list-item .description .user-blog .author {
+          color: #1abc9c;
+          font-weight: bold;
+          border-right: 1px solid black;
+          padding-right: 9px;
+          margin-right: 5px; }
+      .blog-list-items .blog-list-item .description .info-blog {
+        font-size: 14px;
+        line-height: 27px;
+        margin-top: 15px; }
+      .blog-list-items .blog-list-item .description .read-detail {
+        margin-top: 15px;
+        font-size: 14px; }
+
+.right-panel {
+  width: 350px;
+  background-color: #fff;
+  margin-top: 85px;
+  padding: 30px 45px 0 27px; }
+  .right-panel h6 {
+    font-size: 18px; }
+  .right-panel .menu {
+    display: flex;
+    flex-direction: column;
+    color: #2c3e50; }
+    .right-panel .menu a {
+      font-size: 14px;
+      margin-bottom: 5px; }
+      .right-panel .menu a .fa-angle-right {
+        margin-right: 10px; }
+      .right-panel .menu a:hover {
+        color: #1abc9c; }
+  .right-panel .posts {
+    color: #2c3e50; }
+    .right-panel .posts .item-post {
+      margin-top: 31px; }
+      .right-panel .posts .item-post .block-post {
+        display: flex;
+        margin-top: 18px; }
+        .right-panel .posts .item-post .block-post .bgc-grey {
+          width: 80px;
+          height: 80px;
+          background-color: #e3e3e3;
+          display: flex;
+          justify-content: center;
+          align-items: center; }
+        .right-panel .posts .item-post .block-post .text-post {
+          display: flex;
+          flex-direction: column;
+          width: 169px;
+          margin-left: 16px;
+          margin-top: 6px; }
+          .right-panel .posts .item-post .block-post .text-post .name-post {
+            font-size: 14px;
+            font-weight: bold; }
+          .right-panel .posts .item-post .block-post .text-post .date {
+            font-size: 12px; }
+
 body {
   font-family: 'Poppins', sans-serif;
   color: #2c3e50;

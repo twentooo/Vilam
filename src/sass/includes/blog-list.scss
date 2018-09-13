@@ -1,0 +1,121 @@
+.blog-list-items {
+  margin-top: 53px;
+
+  .blog-list-item {
+    display: flex;
+    height: 270px;
+    width: 790px;
+    margin-top: 32px;
+
+    .blog-list-picture {
+      width: 33%;
+      background-color: #e3e3e3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .description {
+      padding: 40px 60px 40px 30px;
+      background-color: #fff;
+      width: 67%;
+
+      .name-blog {
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .user-blog {
+        font-size: 14px;
+        margin-top: 10px;
+
+        .author {
+          color: #1abc9c;
+          font-weight: bold;
+          border-right: 1px solid black;
+          padding-right: 9px;
+          margin-right: 5px;
+        }
+      }
+
+      .info-blog {
+        font-size: 14px;
+        line-height: 27px;
+        margin-top: 15px;
+      }
+
+      .read-detail {
+        margin-top: 15px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.right-panel {
+  width: 350px;
+  background-color: #fff;
+  margin-top: 85px;
+  padding: 30px 45px 0 27px;
+
+  h6 {
+    font-size: 18px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    color: #2c3e50;
+
+    a {
+      font-size: 14px;
+      margin-bottom: 5px;
+
+      .fa-angle-right {
+        margin-right: 10px;
+      }
+
+      &:hover {
+        color: #1abc9c;
+      }
+    }
+  }
+
+  .posts {
+    color: #2c3e50;
+
+    .item-post {
+      margin-top: 31px;
+
+      .block-post {
+        display: flex;
+        margin-top: 18px;
+
+        .bgc-grey {
+          width: 80px;
+          height: 80px;
+          background-color: #e3e3e3;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .text-post {
+          display: flex;
+          flex-direction: column;
+          width: 169px;
+          margin-left: 16px;
+          margin-top: 6px;
+
+          .name-post {
+            font-size: 14px;
+            font-weight: bold;
+          }
+          .date {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+
+  }
+}
